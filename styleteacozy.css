@@ -1,0 +1,143 @@
+*{
+    font-family: Helvetica;
+    font-size: 12;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align:center;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+/*Banner*/
+
+header {
+    border-bottom: 1px solid seashell;
+    width:100%;
+    position:fixed;
+    z-index:1;
+    height:69px;
+}
+
+.container {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.logo {
+    padding-left:10px;
+}
+
+li {
+    display:inline-block;
+}
+
+ul li:not(:last-child) {
+    margin-right: 15px;
+}
+
+ul li:last-child {
+    margin-right:10px;
+}
+
+li a {
+    text-decoration:underline;
+}
+
+main {
+    position:relative;
+    top:69px;
+    display:flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+/*Mission*/
+
+.mission {
+    display:flex;
+    align-items: center;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1yw47rd*_ga*MDgyMzExOTMwMS4xNzAzNDM3ODEw*_ga_3LRZM6TM9L*MTcwNjcxNDA3NS4yNy4xLjE3MDY3MTQ2NzkuMC4wLjA.');
+    height:700px;
+    width:1200px;
+    margin: auto;
+}
+
+.bandeau {
+    width:100%;
+}
+
+/*Choices*/
+
+.choices {
+    width:1000px;
+    margin: auto;
+}
+
+.images {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    gap: 20px;
+}
+
+/*Location*/
+
+.location {
+    position:relative;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1stl6qw*_ga*MDgyMzExOTMwMS4xNzAzNDM3ODEw*_ga_3LRZM6TM9L*MTcwNjcxNDA3NS4yNy4xLjE3MDY3MTQ2NzkuMC4wLjA.');
+    background-size:cover;
+    height:500px;
+    width:1200px;
+    margin: auto;
+}
+
+.directions {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:500px;
+    background-color: transparent;
+}
+
+.column {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.location h2 {
+    position:absolute;
+    width:100%;
+    top: 70px;
+    background-color: transparent;
+}
+
+.directions div {
+    width:300px;
+    opacity: 1;
+}
+
+.directions div:not(:last-child) {
+    margin-right:40px;
+}
+
+/*Contact*/
+
+.contact {
+    display:flex;
+    flex-direction: column;
+    height:200px;
+}
+
+/*Footer*/
+
+footer h5 {
+    text-align:left;
+    margin-left:20px;
+}
